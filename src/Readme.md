@@ -26,4 +26,4 @@ We can use the RS-based approach in order to generate a candidate tow with small
 
 # Code:
 
-The following code implements these ideas in the context of the `Monolith` hash function on the $2^{31} - 1$ prime. The concatenation method was used in order to generate the $16\times 16$ matrix, while the RS-over-small-fields approach was used in order to generate the $24 \times 24$ matrix. We noticed a $-9$% reduction in time for the $16$ case and a $-75$% reduction in time in the $24$ case.
+The following [code](https://github.com/Al-Kindi-0/mono) implements these ideas in the context of the `Monolith` hash function on the $2^{31} - 1$ prime. The concatenation method was used in order to generate the $16\times 16$ matrix, while the RS-over-small-field approach was used in order to generate the $24 \times 24$ matrix. We noticed a $-9$% reduction in time for the $16$ case and a $-75$% reduction in time in the $24$ case.
